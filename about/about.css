@@ -1,0 +1,828 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------section1----------------------------------------------- */
+/* -------------------------------------------------------------------------section1----------------------------------------------- */
+.section1 {
+    width: 100%;
+    height: 45vh !important;
+    background-image: url(./page-header.jpg);
+    background-color: #0E1D34;
+    background-size: 100% 100%;
+
+}
+
+.section1 .navbar {
+    z-index: 342335 !important;
+}
+
+.section1 .nav-item {
+    display: flex;
+    align-items: center;
+    margin: 0px 12px;
+}
+
+.section1 .nav-item .nav-link {
+    font-weight: bold;
+}
+
+.section1 .getquote {
+    padding: 10px 20px;
+}
+
+
+.section1 .layout {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(21, 34, 52, 0.8);
+    padding: 1px;
+}
+
+.section1 .crumb {
+    height: 7vh;
+    width: 100%;
+    background-color: #F3F6FC;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------media of section 1------------------------------------------------- */
+/* ---------------------------------------------media of section 1------------------------------------------------- */
+
+/* mobile */
+
+
+
+@media (max-width:767px) {
+
+    .section1 .getquote {
+        padding: 7px 26px;
+
+    }
+
+    .section1 {
+
+        height: 50vh !important;
+    }
+
+    .section1 .layout p {
+        width: 90% !important;
+    }
+
+    .section1 .crumb .crumby {
+        margin-left: 10px !important;
+    }
+
+    .section1 .navbar-collapse{
+        background-color: rgb(14, 29, 52, 0.8) !important;
+    }
+
+
+
+
+}
+
+
+
+/* tablet */
+@media (min-width:768px) and (max-width:991px) {
+
+    .section1 .getquote {
+        padding: 7px 15px;
+    }
+
+    .section1 {
+
+        height: 175vh;
+    }
+
+    .section1 .layout p {
+        width: 90% !important;
+    }
+
+    .section1 .navbar-collapse{
+        background-color: rgb(14, 29, 52, 0.8) !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*desktop */
+@media (min-width:1200px) {
+    .section1 .logis {
+        font-size: 35px !important;
+    }
+
+    .section1 .nav-item {
+        font-size: 17px;
+    }
+
+    .section1 {
+        width: 100%;
+        height: 85vh;
+    }
+
+    .section1 .layout p {
+        width: 40% !important;
+
+    }
+}
+
+
+
+
+/* ---------------------------------------------media of section 1------------------------------------------------- */
+/* ---------------------------------------------media of section 1------------------------------------------------- */
+
+
+
+
+/* -------------------------------------------------------------------------section1----------------------------------------------- */
+/* -------------------------------------------------------------------------section1----------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================section2 about us=========================================== */
+
+
+.section2 {
+    height: 70vh;
+    margin-top: 150px;
+    /* background-color: red; */
+}
+
+/* ---------------------------------media section2-------------------------------------- */
+
+
+/* mobile */
+
+
+
+@media (max-width:767px) {
+    .section2 {
+        height: 125vh !important;
+        /* background-color: red; */
+    }
+
+    .section2 .img {
+        order: -1;
+    }
+
+    .continuesection2 .underline {
+        left: 46% !important;
+    }
+
+}
+
+
+
+/* tablet */
+@media (min-width:768px) and (max-width:991px) {
+    .section2 {
+        height: 125vh !important;
+
+    }
+
+    .section2 .img {
+        order: -1;
+    }
+
+    .section2 .fa-diagram-project {
+        margin-left: 10px !important;
+    }
+
+    .section2 .fa-compress {
+        margin-left: 5px !important;
+    }
+
+    .section2 .fa-tower-broadcast {
+        margin-left: 5px !important;
+    }
+
+
+    .continuesection2 .underline {
+        left: 46% !important;
+    }
+
+
+
+}
+
+
+/*desktop */
+@media (min-width:1200px) {
+    .section2 {
+        width: 99% !important;
+    }
+}
+
+/* ========================================================section2 about us=========================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------section3 team--------------------------------------------------------- */
+
+
+
+.section3 {
+    height: 80vh;
+    /* background-color: red; */
+    margin-top: 40px;
+}
+
+.section3 .head {
+    height: 15vh;
+    /* background-color: green; */
+}
+
+
+.section3 .head .main,
+.section3 .head .shad {
+    top: 32%;
+    left: 43%;
+}
+
+.section3 .head .main {
+    color: #001973;
+    top: 30%;
+    left: 41%;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+
+.section3 .head .shad {
+    transform: scale(2);
+    color: rgba(172, 175, 179, 0.2);
+}
+
+.section3 .members .card-body .fa-twitter:hover {
+    color: #2F3EFF !important;
+}
+
+.section3 .members .card-body .fa-facebook:hover {
+    color: #2F3EFF !important;
+}
+
+.section3 .members .card-body .fa-instagram:hover {
+    color: #2F3EFF !important;
+}
+
+.section3 .members .card-body .fa-linkedin:hover {
+    color: #2F3EFF !important;
+}
+
+
+
+
+
+
+/* ----------------------------------------------------section3 media------------------------------------------------------ */
+
+/* tablet */
+@media (min-width:768px) and (max-width:991px) {
+    .section3 {
+        height: 150vh
+    }
+
+    .section3 .head .main {
+
+        left: 38%;
+    }
+
+    .section3 .head .shad {
+        top: 34%;
+        left: 42%;
+    }
+
+    .section3 .head .underline {
+        left: 45% !important;
+    }
+
+
+}
+
+/* mobile */
+
+
+
+@media (max-width:767px) {
+    .section3 .members .card {
+        width: 22rem !important;
+    }
+
+    .section3 {
+        height: 235vh;
+    }
+
+    .section3 .head .main {
+
+        top: 25%;
+        left: 29%;
+    }
+
+    .section3 .head .shad {
+        top: 31%;
+        left: 37%;
+    }
+
+    .section3 .members {
+        padding-left: 18px !important;
+    }
+
+
+
+
+
+}
+
+/*desktop */
+@media (min-width:1200px) {
+    .section3 .members .card {
+        width: 26rem !important;
+    }
+
+    .section3 {
+        height: 95vh;
+    }
+
+    .section3 .head .main {
+
+        left: 44%;
+    }
+
+    .section3 .head .shad {
+        top: 30%;
+        left: 45%;
+    }
+
+}
+
+
+
+
+/* ----------------------------------------------------section3 media------------------------------------------------------ */
+
+
+
+/* -------------------------------------------------------------------section3 team--------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------section4 toggle-------------------------------------------------------- */
+
+
+.section4 {
+    height: 60vh;
+    /* background-color: red; */
+    background-image: url(../testimonials-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section4 .layout {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(21, 34, 52, 0.7);
+}
+
+/* .section4 .bn{
+        width: 14px !important;
+        height: 14px !important;
+        border-radius: 50%; */
+.carousel-indicators [data-bs-target] {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+}
+
+.section4 .carousel-item img {
+    width: 90px !important;
+    height: 90px !important;
+    border-radius: 50% !important;
+    border: 8px solid rgb(170, 178, 177, 0.2);
+    margin: 5px 0px;
+}
+
+.section4 .carousel-item p span {
+    font-size: 25px !important;
+    color: #B0B2B7 !important;
+}
+
+/* -------------------------------------------------------media toggle------------------------------------- */
+
+
+
+
+
+/* mobile */
+
+
+
+@media (max-width:767px) {
+
+
+    .section4 {
+        height: 75vh;
+    }
+
+    .section4 .toggle1 {
+        width: 96%;
+    }
+
+
+
+
+}
+
+/* tablet */
+@media (min-width:768px) and (max-width:991px) {
+    .section4 .carousel-item {
+        margin: 0px !important;
+    }
+
+    .section4 .toggle1 {
+        width: 85% !important;
+    }
+}
+
+
+
+
+/* --------------------------------------------------------------section4 toggle-------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------section5 frequently--------------------------------------------- */
+
+
+.section5 {
+    height: 80vh;
+    /* background-color: red; */
+}
+
+.section5 .head {
+    height: 20vh;
+    /* background-color: green; */
+}
+
+.section5 .head .main,
+.section5 .head .shad {
+    top: 37%;
+    left: 26%;
+}
+
+.section5 .head .main {
+    color: #001973;
+    top: 35%;
+    left: 20%;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+.section5 .head .shad {
+    transform: scale(2);
+    color: rgba(172, 175, 179, 0.2);
+}
+
+.section5 .accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: white !important;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+}
+
+.section5 .accordion-item {
+    box-shadow: 2px 2px 15px gray, -2px -2px 15px gray;
+}
+
+.accordion-item {
+    background-color: rgb(181, 181, 187, 0.2) !important;
+}
+
+.accordion-button {
+    background-color: #F8F8F9 !important;
+}
+
+
+
+/* -------------------------------------------media section5------------------------------------------ */
+
+
+/* mobile */
+
+
+
+@media (max-width:767px) {
+
+    .section5 .head .main {
+        color: #001973;
+        top: 35%;
+        left: 10%;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .section5 .head .shad {
+        transform: scale(1.1);
+        color: rgba(172, 175, 179, 0.2);
+    }
+
+    .section5 .head .shad {
+        top: 35%;
+        left: 1%;
+    }
+
+    .section5 {
+        height: 125vh;
+    }
+
+    .section5 .underline {
+        width: 50px !important;
+        left: 43% !important;
+        top: 60% !important;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+/* tablet */
+@media (min-width:768px) and (max-width:991px) {
+
+    .section5 .head .main {
+        color: #001973;
+        top: 34%;
+        left: 17%;
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    .section5 .head .shad {
+        transform: scale(1.6);
+    }
+    .section5 {
+        height: 100vh;}
+}
+
+
+
+/*desktop */
+@media (min-width:1200px) {
+    .section5 .head .main {
+        color: #001973;
+        top: 35%;
+        left: 29%;
+    }
+
+    .section5 .head .shad {
+        top: 36%;
+        left: 33%;
+    }
+
+
+}
+
+
+
+/* ----------------section5 frequently--------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------section6 footer------------------------------------------- */
+
+.section6 {
+    height: 50vh;
+    background-color: #111D34;
+}
+
+.section6 .icons .fa-twitter,
+.section6 .icons .fa-facebook,
+.section6 .icons .fa-instagram,
+.section6 .icons .fa-linkedin {
+    border: 0.7px solid rgb(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: #B8BCC2;
+    transition-duration: 0.2s;
+}
+
+.section6 .icons .fa-twitter:hover {
+    border: 0.8px solid white;
+}
+
+.section6 .icons .fa-facebook:hover {
+    border: 0.8px solid white;
+}
+
+.section6 .icons .fa-instagram:hover {
+    border: 0.8px solid white;
+}
+
+.section6 .icons .fa-linkedin:hover {
+    border: 0.8px solid white;
+}
+
+.section6 ul {
+    padding-left: 0px;
+}
+
+.section6 ul li {
+    list-style-type: none;
+    margin: 10px 0px;
+
+}
+
+.section6 ul li a {
+    color: rgb(255, 255, 255, 0.4);
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+.section6 ul li a:hover {
+    color: white;
+}
+
+
+
+
+/* ---------------------------------------media footer--------------------------------------------------- */
+
+
+/* mobile */
+
+
+
+@media (max-width:767px){
+
+
+    .section6 {
+        height: 132vh}
+    
+    }
+
+
+
+
+/* tablet */
+@media (min-width:768px) and (max-width:991px) {
+
+
+
+.section6 {
+    height: 100vh}
+
+}
+
+
+
+
+
+/* --------------------------------------------------------------------------section6 footer------------------------------------------- */
