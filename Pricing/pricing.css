@@ -67,6 +67,17 @@ body {
     background-color: #F3F6FC;
 }
 
+.section1 .navbar-brand{
+    transition-duration: 0.2s;
+    transition: all;
+}
+
+.section1 .navbar-brand:hover{
+    color: #0B5ED7 !important;
+    transform: translate(6px,-5px) !important;
+}
+
+
 
 
 
