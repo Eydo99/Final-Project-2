@@ -10,6 +10,22 @@
 
   <!----------------------------------------------- links------------------------------------------ -->
 
+
+
+<!-- ====================================wow css file================================== -->
+
+<link rel="stylesheet" href="./Css/animate.css">
+
+
+
+
+
+<!-- ================================animate CDN file -->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
   <!-- =============my style==================== -->
   <link rel="stylesheet" href="./Css/style.css">
   <!-- ===========================boootstrap css file===================================== -->
@@ -44,7 +60,7 @@
   <div class="section1 home">
 
     <!-- header -->
-    <div class="container-fluid position-fixed py-1 " style="background-color: rgb(14, 29, 52,0.8); z-index: 40;">
+    <div class="container-fluid position-fixed py-1 nv " style="background-color:transparent; z-index: 40;">
       <header class="container " style="height: 8vh;">
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent w-100 h-100  ">
           <div class="container-fluid">
@@ -111,7 +127,7 @@
     <!-- content -->
     <div class="container py-1">
       <div class="row content " style="margin-top: 100px;">
-        <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="col-lg-6 col-md-12 col-sm-12 animate__animated animate__fadeInUp animate__slow	1s">
           <h1 class="text-white  my-3  fw-bold" style="font-size:50px;">
             Your Lightning Fast Delivery Partner
           </h1>
@@ -170,7 +186,7 @@
           </div>
 
         </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 img-hero">
+        <div class="col-lg-6 col-md-12 col-sm-12 img-hero animate__animated animate__fadeInUp animate__slow	1s">
           <img src="./hero-img.svg" alt="" class="w-100 h-100 hero-img" style="transform: scale(0.9);">
 
         </div>
@@ -194,9 +210,9 @@
 
 
   </div>
-  <div class="continuesection1 container " style="height: 30vh; margin-top: 100px;">
+  <div class="continuesection1 container " style="height: 30vh; margin-top: 60px;">
     <div class="row w-100 h-100 mx-0 my-0">
-      <div class="col-lg-4 col-md-6 col-sm-12  row mx-0 my-0 d-flex bloq1">
+      <div class="col-lg-4 col-md-6 col-sm-12 animate__animated animate__slideInUp animate__slow	1s  row mx-0 my-0 d-flex bloq1">
         <div class="col-3 sec1">
           <a href="./ServiceDetails/servicedetails.html"><i class="fa-solid fa-cart-flatbed mt-2 "></i></a>
 
@@ -219,7 +235,7 @@
 
 
       </div>
-      <div class="col-lg-4 col-md-6 col-sm-12 row mx-0 my-0 d-flex bloq2">
+      <div class="col-lg-4 col-md-6 col-sm-12 animate__animated animate__slideInUp animate__slow	1s  row mx-0 my-0 d-flex bloq2">
         <div class="col-3 ">
           <a href="./ServiceDetails/servicedetails.html"><i class="fa-solid fa-truck mt-2"></i></a>
 
@@ -239,7 +255,7 @@
           </a>
         </div>
       </div>
-      <div class="col-lg-4 col-md-6 col-sm-12 mx-0 my-0 d-flex bloq3">
+      <div class="col-lg-4 col-md-6 col-sm-12 animate__animated animate__slideInUp animate__slow	1s  mx-0 my-0  d-flex bloq3">
 
 
         <div class="col-3 ">
@@ -302,7 +318,7 @@
   <div class="container section2 about mt-5">
     <div class="row">
       <div class="col-lg-6 col-12 my-4">
-        <h2 class="fw-bold fs-1" style="color: #001F8D;"> About us</h2>
+        <h2 class="fw-bold fs-1 " style="color: #001F8D;"> About us</h2>
         <p style="font-size: 17px;">
           Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas deleniti. Sit quia
           molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius incidunt reiciendis veritatis
@@ -339,7 +355,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-md-12 col-sm-12  my-4 img">
+      <div class="col-lg-6 col-md-12 col-sm-12   my-4 img">
         <img src="./about.jpg" alt="" class="w-100 h-100">
 
 
@@ -489,7 +505,7 @@
       <p class="text-white w-50 m-auto text-center my-3">Duis aute irure dolor in reprehenderit in voluptate velit esse
         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
         officia deserunt </p>
-      <a href=""><button> Call To Action</button></a>
+      <button class="calltoaction"> Call To Action</button>
 
 
     </div>
@@ -1067,7 +1083,7 @@
 
 
 
-
+<button class="arrow"> <i class="fa-solid fa-arrow-up"></i></button>
 
 
 
@@ -1095,9 +1111,20 @@
   <script src="./JS/bootstrap.min.js"></script>
   <!-- ===============font awesome js file============== -->
   <script src="./JS/all.min.js"></script>
+  
 
+<!-- =======================================wow js file=========================== -->
+<script src="./JS/wow.min.js"></script>
+<script>
+  new WOW().init();
+  </script>
 
+<!-- ======================================jquery file==================================== -->
 
+<script src="./JS/jquery-3.7.1.min.js"></script>
+
+<!-- =====================================my js file============================ -->
+<script src="./JS/app.js"></script>
 
   <!-- ----------------------------------------------------scripts----------------------------------------------------- -->
 
